@@ -1,91 +1,106 @@
-/* <!--   Урок 4  -->
-<!-- Завдання №1. */
-.lesson-four-task-one button:hover {
-    color: red;
-    background: yellow;
-}
-/* Завдання №2 */
-.lesson-four-task-two .link:hover + .title {
-    background: green;
-}
-/* Завдання №3 */
-.lesson-four-task-three a.link:visited {
-    color: yellow;
-    background-color: black;
-}
-    /* Завдання №4 */
-.lesson-four-task-four #sidebara:link {
-    color: red;
-}
-/* Завдання №5 */
-.lesson-four-task-five button.btn:active {
-    color: blue;
-}
-/* Завдання №6 */
-.lesson-four-task-six button.btn:focus {
-    color: blue;
-}
-
-/* Завдання №7 */
-.lesson-four-task-seven #target:target {
-    color: white;
-    background: green;
-}
-/* Завдання №8 */
-.lesson-four-task-eight .id-checkbox:checked {
-    color: white;
-    background: blue;
-}
-/* Завдання №9 */
-.lesson-four-task-nine  p:lang(uk) {
-    color: blue;
-}
-    /* Завдання №10 */
-.lesson-four-task-ten input:enabled{
-    color: red;
-    background: yellow;
-}
-/* Завдання №11 */
-.lesson-four-task-eleven input:disabled {
-    background: yellow;
-}
-/* Завдання №12 */
-.lesson-four-task-twelve input:read-write {
-    background: yellow;
-}
-/* Завдання №13 */
-.lesson-four-task-thirteen  input:read-only {
-    background: yellow;
-}
-/* Завдання №14 */
-.lesson-four-task-fourteen input:valid {
-    background-color: lightgreen;
-    color: red;
+.task_1 h1 {
+    color: green;
   }
-
-/* Завдання №15 */
-.lesson-four-task-fourteen input:invalid {
-    background-color: tomato;
-    color: white;
+  .task_1 p {
+    -webkit-text-fill-color: red;
   }
-/* Завдання №16 */
-.lesson-four-task-sixteen input:out-of-range {
-    color: red;
-}
-/* Завдання №17 */
-.lesson-four-task-seventeen input:in-range {
-    color: red;
-}
-/* Завдання №18 */
-.lesson-four-task-eighteen input:placeholder-shown {
-    color: red;
-}
-/* Завдання №19 */
-.lesson-four-task-nineteen button:focus-within {
-    color: white;
-    background: yellow;
-}
-/* Завдання №20 */
-.lesson-four-task-twenty input:invalid {
+  .task_1 button {
+    -webkit-text-stroke: 1px #000
+  }
+  .task_2 h1 {
+    direction: rtl
+  }
+  .task_2 p {
+    text-align:right;
+  }
+  .task_2 button {
+    text-transform: uppercase;
+  }
+  .task_3 h1 {
+    writing-mode: vertical-lr;
+  }
+  .taksk_3 pre {
+    tab-size: 4;
+  }
+  .task_3 button {
+    letter-spacing: 2px;
+    text-decoration: underline;
+  }
+  .task_4 h1 {
+    font-size: 50px;
+    font-style: italic;
+  }
+  .task_4 p {
+    font-weight: bold;
+    font-display: swap;
+    font-weight: 700;
+  }
+  .task_5 div {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
     background: red;
-}
+  }
+  .task_5 button {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+  }
+  .task_5 input {
+    min-width: 150px;
+    min-height: 45px;
+    max-width: 300px;
+    max-height: 60px;
+    background: rgb(136, 135, 133);
+  }
+  .task_5 p {
+    display: none;
+  }
+  .task_6 h1 {
+    outline: 3px double blue;
+    outline-offset: 10px;
+  }
+  .task_6 div {
+    border: 3px dashed red;
+  }
+  .task_6 button {
+    border-radius: 25px;
+    text-shadow: 2px 2px 10px #888888;
+  }
+  .task_7 button {
+    box-shadow: 2px 2px 5px 10px #666666;
+  }
+  .task_7 button {
+    line-height: 2;
+  }
+  .task_7 strong {
+    vertical-align: baseline;
+    cursor: wait;
+  }
+  .task_8 div {
+    visibility: hidden;
+  }
+  .task_8 p {
+    max-height: 70px;
+    overflow: scroll;
+  }
+  .task_8 h1 {
+    max-height: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .task_9 h1 {
+    white-space:normal;
+    word-spacing: 30px;
+  }
+  .task_9 div {
+    hyphenate-character: "&shy";
+  }
+  .task_9 p {
+   /* незнаю! */
+  }
+  .task_9 textarea {
+    resize: none;
+  }
+  
